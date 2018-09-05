@@ -1,4 +1,4 @@
-# Counting Sort
+# Counting Sort [![Build Status](https://travis-ci.org/adamryman/counting.svg?branch=master)](https://travis-ci.org/adamryman/counting)
 
 This is an implementation of counting sort in golang.
 
