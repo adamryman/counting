@@ -11,6 +11,7 @@ go_import_path: github.com/adamryman/counting
 script:
   - go build ./...
   - go test ./...
+  - go test -branch=.
 
 notifications:
   email: false
