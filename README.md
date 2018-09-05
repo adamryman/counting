@@ -6,8 +6,8 @@ This is just for fun, maybe it could be useful to someone.
 
 ## References
 
-https://en.wikipedia.org/wiki/Counting_sort
-https://www.geeksforgeeks.org/counting-sort/
+- https://en.wikipedia.org/wiki/Counting_sort
+- https://www.geeksforgeeks.org/counting-sort/
 
 ## TODO
 
