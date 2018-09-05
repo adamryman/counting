@@ -87,3 +87,12 @@ func BenchmarkSort100And1000000(b *testing.B)       { benchmarkSort(100, 1000000
 
 func BenchmarkSort1000And1000000Stdlib(b *testing.B) { benchmarkSortStdlib(1000, 1000000, b) }
 func BenchmarkSort1000And1000000(b *testing.B)       { benchmarkSort(1000, 1000000, b) }
+
+func BenchmarkSort10000And1000000Stdlib(b *testing.B) { benchmarkSortStdlib(10000, 1000000, b) }
+func BenchmarkSort10000And1000000(b *testing.B)       { benchmarkSort(10000, 1000000, b) }
+
+func BenchmarkSort100000And1000000Stdlib(b *testing.B) { benchmarkSortStdlib(100000, 1000000, b) }
+func BenchmarkSort100000And1000000(b *testing.B)       { benchmarkSort(100000, 1000000, b) }
+
+func BenchmarkSort1000000And1000000Stdlib(b *testing.B) { benchmarkSortStdlib(1000000, 1000000, b) }
+func BenchmarkSort1000000And1000000(b *testing.B)       { benchmarkSort(1000000, 1000000, b) }
